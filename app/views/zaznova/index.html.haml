@@ -1,1 +1,24 @@
-%h1 Hello, Rails!
+%header
+  %nav.navbar
+    .container-fluid
+      .navbar-header
+        %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-navbar-collapse-header", "data-toggle" => "collapse", :type => "button"}
+          %span.sr-only Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.navbar-brand{:href => "#"} Zaznova
+      #bs-navbar-collapse-header.collapse.navbar-collapse
+        %ul.nav.navbar-nav.navbar-right
+          %li
+            %a{:href => "#"} Home
+          %li
+            %a{:href => "#"} Work
+          %li
+            %a{:href => "#"} Team
+          %li
+            %a{:href => "#"} Contact
+
+%body
+
+%footer
