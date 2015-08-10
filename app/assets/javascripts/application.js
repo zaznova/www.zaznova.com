@@ -13,5 +13,8 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require easing
+//= require move-top
+//= require jquery.hoverGrid
 //= require turbolinks
 //= require_tree .
