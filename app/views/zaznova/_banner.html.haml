@@ -2,9 +2,11 @@
   .container
     .banner-info
       %h1
-        %span let us make
-        your lives easier
-      %p We specialize in crafting awesome ideas for web, mobile and beyond.
+        %span
+          = t 'copy.banner.info1'
+        = t 'copy.banner.info2'
+      %p
+        = t 'copy.banner.motto'
       %label.page-scroll
         %a.big-btn.scroll{:href => "#work1"}
           %span
