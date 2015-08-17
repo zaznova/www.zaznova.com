@@ -16,5 +16,4 @@
 //= require easing
 //= require move-top
 //= require jquery.hoverGrid
-//= require turbolinks
 //= require_tree .
