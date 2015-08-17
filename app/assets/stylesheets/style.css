@@ -301,10 +301,10 @@ img.t-pic{
 .t-social li a.twitter span:hover{
 	background-position: 0px -25px;
 }
-.t-social li a.dribbble span{
+.t-social li a.github span{
 	background-position: -35px 0px;
 }
-.t-social li a.dribbble span:hover{
+.t-social li a.github span:hover{
 	background-position: -35px -25px;
 }
 .t-social li a.in span{
