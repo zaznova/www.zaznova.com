@@ -1,0 +1,19 @@
+#home.header
+  .top-header
+    .container
+      .logo
+        %a{:href => "#"} zaznova
+      / --start-top-nav--
+      %nav.top-nav
+        %ul.top-nav
+          %li.active
+            %a.scroll{:href => "#home"} Home
+          %li.page-scroll
+            %a.scroll{:href => "#work"} Work
+          %li.page-scroll
+            %a.scroll{:href => "#team"} Team
+          %li.contatct-active
+            %a.scroll{:href => "#contact"} Contact
+        %a#pull{:href => "#"}
+          = image_tag("nav-icon.png", title: "menu")
+      .clearfix
