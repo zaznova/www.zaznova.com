@@ -17,6 +17,9 @@ en:
     team:
         head: Team
         description: We are a hard working group, who's aim is to listen to your problems and to come up with the best solution possible. We follow the lates trends on the web to create custom talierd niche websites.
+    contact:
+      head: contact
+      description: Want to contact us now? Just drop us a line below.
     footer:
         developed: Developed by
         zaznova: zaznova
