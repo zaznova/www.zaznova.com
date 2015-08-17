@@ -6,8 +6,9 @@
         ipsum dolor sit amet, consectetur adipiscing - elit.
     .footer-right
       %p
-        Developed by
-        %a{:href => "#"} zaznova
+        = t 'copy.footer.developed'
+        %a{:href => "#"}
+          = t 'copy.footer.zaznova'
       :javascript
         $(document).ready(function() {
                             /*
