@@ -2,18 +2,23 @@
   .top-header
     .container
       .logo
-        %a{:href => "#"} zaznova
+        %a{:href => "#"}
+          = t 'copy.header.logo'
       / --start-top-nav--
       %nav.top-nav
         %ul.top-nav
           %li.active
-            %a.scroll{:href => "#home"} Home
+            %a.scroll{:href => "#home"}
+              = t 'copy.header.home'
           %li.page-scroll
-            %a.scroll{:href => "#work"} Work
+            %a.scroll{:href => "#work"}
+              = t 'copy.header.work'
           %li.page-scroll
-            %a.scroll{:href => "#team"} Team
+            %a.scroll{:href => "#team"}
+              = t 'copy.header.team'
           %li.contatct-active
-            %a.scroll{:href => "#contact"} Contact
+            %a.scroll{:href => "#contact"}
+              = t 'copy.header.contact'
         %a#pull{:href => "#"}
           = image_tag("nav-icon.png", title: "menu")
       .clearfix

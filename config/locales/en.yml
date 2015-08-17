@@ -21,3 +21,11 @@
 
 en:
   hello: "Hello world"
+  copy:
+    header:
+        logo: zaznova
+        home: Home
+        work: Work
+        team: Team
+        contact: Contact
+
