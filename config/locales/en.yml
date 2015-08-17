@@ -14,6 +14,9 @@ en:
     work:
         head: featured work
         description: Here you can find some of our latest works, to see the details of these works just click the thumbnails below.
+    team:
+        head: Team
+        description: We are a hard working group, who's aim is to listen to your problems and to come up with the best solution possible. We follow the lates trends on the web to create custom talierd niche websites.
     footer:
         developed: Developed by
         zaznova: zaznova
