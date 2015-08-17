@@ -14,3 +14,8 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore keep
+/.keep
+!/spec/.keep
+!/test/.keep
