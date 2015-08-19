@@ -1,0 +1,26 @@
+.footer
+  .container
+    .footer-left
+      %p
+        %span Adress:
+        ipsum dolor sit amet, consectetur adipiscing - elit.
+    .footer-right
+      %p
+        = t 'copy.footer.developed'
+        %a{:href => "#"}
+          = t 'copy.footer.zaznova'
+      :javascript
+        $(document).ready(function() {
+                            /*
+                            var defaults = {
+                                containerID: 'toTop', // fading element id
+                              containerHoverID: 'toTopHover', // fading element hover id
+                              scrollSpeed: 1200,
+                              easingType: 'linear' 
+                            };
+                            */
+                            $().UItoTop({ easingType: 'easeOutQuart' });
+                          });
+      %a#toTop{:href => "#", :style => "display: block;"}
+        %span#toTopHover{:style => "opacity: 1;"}
+    .clearfix

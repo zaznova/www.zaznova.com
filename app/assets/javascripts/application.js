@@ -11,6 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//= require bootstrap-sprockets
 //= require jquery_ujs
-//= require turbolinks
+//= require easing
+//= require move-top
+//= require jquery.hoverGrid
 //= require_tree .
