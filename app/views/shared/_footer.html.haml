@@ -11,16 +11,9 @@
           = t 'copy.footer.zaznova'
       :javascript
         $(document).ready(function() {
-                            /*
-                            var defaults = {
-                                containerID: 'toTop', // fading element id
-                              containerHoverID: 'toTopHover', // fading element hover id
-                              scrollSpeed: 1200,
-                              easingType: 'linear' 
-                            };
-                            */
-                            $().UItoTop({ easingType: 'easeOutQuart' });
-                          });
+          $().UItoTop({ easingType: 'easeOutQuart' });
+          //$('.tlt').textillate({ in: { effect: 'pulse' } });
+        });
       %a#toTop{:href => "#", :style => "display: block;"}
         %span#toTopHover{:style => "opacity: 1;"}
     .clearfix
