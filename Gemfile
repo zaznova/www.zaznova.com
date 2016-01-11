@@ -19,4 +19,6 @@ end
 
 group :production, :staging do
   gem 'rails_12factor', '~> 0.0.3'
+  # Performance
+  gem 'heroku-deflater', '~> 0.6.2'
 end

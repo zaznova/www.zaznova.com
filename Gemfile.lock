@@ -66,6 +66,8 @@ GEM
       haml (>= 4.0.6, < 5.0)
       html2haml (>= 1.0.1)
       railties (>= 4.0.1)
+    heroku-deflater (0.6.2)
+      rack (>= 1.4.5)
     html2haml (2.0.0)
       erubis (~> 2.7.0)
       haml (~> 4.0.0)
@@ -166,6 +168,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.1.0)
   haml-rails (~> 0.9.0)
+  heroku-deflater (~> 0.6.2)
   jbuilder (~> 2.0)
   jquery-rails (~> 4.0.4)
   pg (~> 0.18.1)
